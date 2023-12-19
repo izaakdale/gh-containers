@@ -15,7 +15,7 @@ jobs:
     #   image: node:16
     env:
       MONGODB_CONNECTION_PROTOCOL: mongodb
-      MONGODB_CLUSTER_ADDRESS: 127.0.0.1:27017
+      MONGODB_CLUSTER_ADDRESS: 127.0.0.1:27017 #change to mongodb (service name) when running in container
       MONGODB_USERNAME: root
       MONGODB_PASSWORD: secret
       PORT: 8080
